@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Isaac Media</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header><div class="container nav"><a class="logo" href="index.html">Isaac<span>Media</span></a><nav class="nav-links"><a href="index.html">Accueil</a><a href="services.html">Services</a><a href="portfolio.html">Réalisations</a><a href="about.html">À propos</a><a class="active" href="contact.html">Contact</a></nav><a class="btn btn-primary" href="#form">Réserver un appel</a></div></header>
+<main class="container">
+  <section>
+    <h1>Parlons de vos objectifs de croissance</h1>
+    <p class="lead">Réponse sous 24h ouvrables. Partagez votre contexte et nous vous revenons avec un plan concret.</p>
+    <form id="form" class="contact-form card" action="#" method="post">
+      <input name="name" placeholder="Nom complet" required />
+      <input name="company" placeholder="Entreprise" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input name="phone" placeholder="Téléphone" />
+      <select name="sector" required>
+        <option value="">Secteur d'activité</option>
+        <option>Construction</option><option>Fitness</option><option>Commerce</option><option>Location</option><option>Services</option>
+      </select>
+      <select name="budget" required>
+        <option value="">Budget marketing mensuel</option>
+        <option>1 000$ - 2 500$</option><option>2 500$ - 5 000$</option><option>5 000$ - 10 000$</option><option>10 000$+</option>
+      </select>
+      <textarea class="full" name="message" placeholder="Parlez-nous de vos objectifs"></textarea>
+      <button class="btn btn-primary full" type="submit">Envoyer ma demande</button>
+    </form>
+  </section>
+</main>
+<footer><div class="container">© <span id="year"></span> Isaac Media.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>

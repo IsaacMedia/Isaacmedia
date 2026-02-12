@@ -1,16 +1,22 @@
-## Hi there 👋
+# Isaac Media Website
 
-<!--
-**IsaacMedia/Isaacmedia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Site vitrine multi-pages pour Isaac Media (FR) avec un positionnement orienté conversion:
+- Accueil
+- Services
+- Réalisations
+- À propos
+- Contact
 
-Here are some ideas to get you started:
+## Lancer localement
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```bash
+python3 -m http.server 4173
+```
+
+Puis ouvrez: `http://localhost:4173`
+
+## Stack
+
+- HTML5
+- CSS3
+- JavaScript vanilla
